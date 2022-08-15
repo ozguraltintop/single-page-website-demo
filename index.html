@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create Responsive Single Page Website </title>
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <!-- Script --> 
+    <script>
+        let menuBtn=document.ElementbyId("menuBtn");
+        let sideNav=document.ElementbyId("sideNav");
+
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function() {
+            if (sideNav.style.right === "-250px") {
+                sideNav.style.right = "0px";
+            } else { 
+                sideNav.style.right = "-250px";
+                 }
+            }
+    </script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="website logo"></a>
+        <div class="header-content">
+            <h1>Lorem ipsum dolor sit <br/> amet consectetur adipisicing.</h1>
+            <span class="circle"></span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Simplique exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.Excepteur! </p>
+            <button class="btn read-more"> Read More </button>
+            <div class="line">
+                <span class="line-1"></span><br/>
+                <span class="line-2"></span><br/>
+                <span class="line-3"></span><br/>
+                
+            </div>
+        </div>
+    </div>     
+    </header>
+     
+    <!-- Side nav -->
+    <nav id="sideNav">
+      <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#courses">Course</a></li>
+          <li><a href="#offer">Offer</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+      <img src="img/menu.png" alt="Menu" id="menuBtn">
+    </nav>
+   
+
+<div class="container">    
+    <!-- About Us -->
+    <section id="aboutUs">
+    <div class="about-left text-left">
+        <img src="img/about.png" alt="about">
+    </div>
+    
+    <div class="about-right text-right">
+       <div class="about-content">
+           <h1>About Us</h1>
+           <span class="circle"></span>
+           <p class="text-rigt"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
+           <div class="line">
+                <span class="line-1"></span><br/>
+                <span class="line-2"></span><br/>
+                <span class="line-3"></span><br/> 
+            </div>
+            <h2>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua."</h2>
+            <h3> --- James W.</h3>
+       </div>
+    </div>
+    </section>
+    
+    <!-- Features -->
+    <section id="features">
+        <div class="features-row">
+            <div class="features-col">
+                <img src="img/features-1.png">
+                <h4>Learn Anywhere</h4>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/>Lorem ipsum dolor </p>
+            </div>
+
+            <div class="features-col">
+                <img src="img/features-2.png">
+                <h4>Expert Teachers</h4>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/>Lorem ipsum dolor</p>
+            </div>
+
+            <div class="features-col">
+                <img src="img/features-3.png">
+                <h4>Unlimited Access</h4>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/>Lorem ipsum dolor </p>
+            </div>
+        </div>
+
+        <div class="features-btn">
+            <div class="line">
+                <span class="line-1"></span><br/>
+                <span class="line-2"></span><br/>
+                <span class="line-3"></span><br/> 
+            </div>
+            <button class="btn"> Start Free Trial</button>
+        </div>
+    </section>
+
+    <!-- Courses  -->
+    <section id="courses"> 
+        <div class="courses-row">
+           <div class="courses-left">
+           <div class="courses-content">
+               <h1>Browse our top <br/> courses</h1>
+               <span class="circle"></span>
+               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br/>
+               <button class="btn">View all courses</button>
+               <div class="line">
+                    <span class="line-1"></span><br/>
+                    <span class="line-2"></span><br/>
+                    <span class="line-3"></span><br/> 
+                </div>
+           </div>
+        </div>
+            <div class="courses-right text-right">
+                <img src="img/course.png" alt="courses">
+            </div>
+        </div>
+    </section>
+   
+    <!-- Offer -->
+    <section id="offer">
+        <div class="about-left text-left">
+        <img src="img/offer.png" alt="offer">
+    </div>
+    
+    <div class="about-right text-right">
+       <div class="about-content">
+           <h1>Limitless learning <br/> limitless possibilities</h1>
+           <span class="circle"></span>
+           <p class="text-rigt"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
+           <button class="btn">Start free trial</button>
+           <div class="line">
+                <span class="line-1"></span><br/>
+                <span class="line-2"></span><br/>
+                <span class="line-3"></span><br/> 
+            </div>
+       </div>
+    </div>
+           
+    </section>
+ 
+    <!-- Contant - same course--> 
+    <section id="contact"> 
+    <div class="contact-row">
+           <div class="contact-left">
+           <div class="contact-content">
+               <h1>Sign up to join our <br/> learning community </h1>
+              <form action="">
+                  <input type="text" placeholder="Enter Name" >
+                  <input type="text" placeholder="Enter E-mail" >
+                  <input type="text" placeholder="Enter Password" >
+                  <div class="btn-box">
+                      <button class="btn"> Sign up </button>
+                      <button class="btn"> Start free trial </button>
+                  </div>
+              </form>
+              <div class="line">
+                <span class="line-1"></span><br/>
+                <span class="line-2"></span><br/>
+                <span class="line-3"></span><br/> 
+            </div>
+           </div>
+        </div>
+            <div class="courses-right text-right">
+                <img src="img/contact.png" alt="contact">
+            </div>
+        </div>
+    </section>
+
+ 
+    <!-- Footer -->
+    <footer id="footer">
+    <div class="footer-row">
+        <hr/>
+        <div class="footer-left">
+            <div class="copyright">
+            <img src="img/logo.png" alt="logo">
+            <small>
+                ©copyright 2021 by Udemy 
+            </small>
+        </div>
+        </div>
+            <div class="footer-right">
+                <div class="footer-links">
+                    <div class="link-title">
+                    <h4>Products</h4>
+                    <small><a href="#">Our Plan</a></small>
+                    <small><a href="#">Free Trial</a></small>
+                    </div>
+
+                    <div class="link-title">
+                    <h4>About Us</h4>
+                    <small><a href="#">Request Demo</a></small>
+                    <small><a href="#">FAQs</a></small>
+                    </div>
+
+                    <div class="link-title">
+                    <h4>Support</h4>
+                    <small><a href="#">Features</a></small>
+                    <small><a href="#">Contact Us</a></small>
+                    </div>
+
+                    <div class="link-title">
+                    <h4>Explore</h4>
+                    <small><a href="#">Find a Nonprofit</a></small>
+                    <small><a href="#">Corporate Solution</a></small>
+                    </div>
+
+                    <div class="link-title">
+                    <h4>Contact</h4>
+                    <small><a href="mailto:lorem@gmail.com">lorem@gmail.com</a></small>
+                    <small><a href="tel:500 000 00 00">500 000 00 00</a></small>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+
+    <!-- Social Icon -->
+    <div class="social-icon">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+    </div>
+ 
+   
+</div>
+</body>
+</html>
