@@ -9,19 +9,26 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <!-- Script --> 
-    <script>
+ 
+    <script type="text/javascript">
+
         let menuBtn=document.ElementbyId("menuBtn");
         let sideNav=document.ElementbyId("sideNav");
 
 
         sideNav.style.right = "-250px";
-        menuBtn.onclick = function() {
+        function menuyetıkla() {
+            alert('sa');
             if (sideNav.style.right === "-250px") {
                 sideNav.style.right = "0px";
             } else { 
                 sideNav.style.right = "-250px";
                  }
             }
+
+
+
+
     </script>
 </head>
 <body>
@@ -55,7 +62,7 @@
           <li><a href="#offer">Offer</a></li>
           <li><a href="#contact">Contact</a></li>
       </ul>
-      <img src="img/menu.png" alt="Menu" id="menuBtn">
+      <img src="img/menu.png" alt="Menu" id="menuBtn" onclick="menuyetıkla();">
     </nav>
    
 
